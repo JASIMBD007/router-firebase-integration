@@ -13,6 +13,9 @@ const Register = () => {
                 <br />
                 <input type="submit" value="Register" />
             </form>
+            <div>
+                <button>Sign In with Google</button>
+            </div>
         </div>
     );
 };

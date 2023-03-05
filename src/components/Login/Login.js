@@ -1,6 +1,8 @@
 import React from 'react';
+import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
+    const { signInWithGoogle } = useFirebase();
     return (
         <div>
             <h3>Please Login!</h3>
@@ -11,6 +13,9 @@ const Login = () => {
                 <br />
                 <input type="submit" value="Login" />
             </form>
+            <div>
+                <button onClick={signInWithGoogle}>Sign In with Google</button>
+            </div>
         </div>
 
     );
