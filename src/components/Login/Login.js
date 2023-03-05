@@ -13,7 +13,7 @@ const Login = () => {
                 <br />
                 <input type="submit" value="Login" />
             </form>
-            <div>
+            <div style={{ margin: '10px' }}>
                 <button onClick={signInWithGoogle}>Sign In with Google</button>
             </div>
         </div>
